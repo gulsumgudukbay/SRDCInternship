@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Create User</title>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div id ="createusercontent">
+	<form id='formCreate' name='formCreate' action='post'>
+	<label>Username:</label><input name='username' type='text' id='username'/> <br>
+	<label>Password:</label><input name='password' type='text' id='password'/> <br>
+	<label>Email:</label><input name='email' type='text' id='email'/> <br>
+	<label>Name:</label><input name='name' type='text' id='name'/> <br>
+	<label>Surname:</label><input name='surname' type='text' id='surname'/><br>
+	
+	<input name="type" type="radio" value="Regular" id="regular" checked>Regular    
+	<input name="type" type="radio" value="Admin" id="admin" >Admin
+	
+	<br> </form>
+	<br>
+	
+	<button id='submitCreate' onclick='createUser()'>Submit</button>
+	<button id='backToMain' onclick="window.location.href='index.html'">Back</button>
+	
+	
+</div>
+<script src="js/jquery-3.0.0.js"></script>
+<script src="js/script.js"></script>
+<script src="js/angular.min.js"></script>
+
+</body>
+</html>
+

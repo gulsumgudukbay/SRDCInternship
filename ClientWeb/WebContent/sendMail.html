@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Send Mail</title>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div id ="sendMail">
+	<form id='formMail' name='formMail' action='post'>
+	<label>To:</label><input name='to' type='text' id='to'/> <br>
+	<label>Message:</label><input style='height:100px;' name='message' type='text' id='message'/> <br>
+	</form>
+	<button id='sendMail' onclick='sendMail()'>Submit</button>
+	<button id='backToRegular' onclick="window.location.href='regularUser.html'">Back</button>
+	
+</div>
+<script src="js/jquery-3.0.0.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

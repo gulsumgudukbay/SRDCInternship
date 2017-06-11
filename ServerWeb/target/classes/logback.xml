@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+
+<configuration scan="true">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS}|%-5level|${HOSTNAME}||%msg ||%class:%line %xException{full} %n</pattern>
+        </encoder>
+    </appender>
+ 
+    <logger name="com.cdi" level="DEBUG"/>
+    <logger name="org.springframework.web.client.RestTemplate" level="DEBUG"/>
+ 
+    <root level="debug">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

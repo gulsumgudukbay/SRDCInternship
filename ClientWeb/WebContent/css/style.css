@@ -1,0 +1,110 @@
+* {
+  font-family: "Tw Cen MT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  
+}
+body{
+	position: absolute;
+	top: 60px;
+	left: 60px;	color: #A9E2F3;
+	letter-spacing: 2px;
+	background-color: #610B38; 	
+	background-image: url("pink-owl-on-branch-hi.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+}
+label{
+	background-color:#1f00bd;
+}
+
+table, td {
+	border: 1px solid #610B38;
+	background-color: #CED8F6;
+	color: #0000FF;
+    text-align: left;
+}
+
+td{
+	padding: 7px;
+}
+
+th{
+	border: 1px solid #610B38;
+	background-color: #CED8F6;
+	color: #720045;
+	padding: 7px;
+    text-align: left;
+}
+
+
+input, textarea {
+  border:1px solid #ccc;
+  min-height:30px; 
+  outline: none;
+}
+
+input[type=button]{
+	transition-duration: 0.4s;
+	cursor: pointer;
+	padding:6px;
+	border: 1px solid #FFFFFF;
+  	border-radius:5px;
+  	background-color: #0000FF;
+  	color: #CED8F6;
+  	height: 50px;
+    width: 120px;
+}
+
+input[type=button]:hover{
+	background-color: #CED8F6;
+    color: #0000FF;
+}
+
+input[type=password]{
+  margin-bottom:15px;
+  margin-top:5px;
+  width:280px;
+  background-color: #CED8F6;
+  color: #3104B4;
+  border: 1px solid #FFFFFF;
+  border-radius:5px;
+}
+
+input[type=text]{
+  margin-bottom:15px;
+  margin-top:5px;
+  width:280px;
+  background-color: #CED8F6;
+  color: #3104B4;
+  border: 1px solid #FFFFFF;
+  border-radius:5px;
+}
+
+textarea {
+	margin-bottom:15px;
+  	margin-top:5px;
+  	width:250px;
+}
+
+label {
+	display:block;
+}
+
+button:hover{
+	background-color: #CED8F6;
+    color: #0000FF;
+}
+
+button {
+	height: 50px;
+    width: 120px;
+	transition-duration: 0.4s;
+	cursor:pointer;
+	padding:6px;
+	border: 1px solid #FFFFFF;
+  	border-radius:5px;
+  	background-color: #0000FF;
+  	color: #CED8F6;
+  	
+}

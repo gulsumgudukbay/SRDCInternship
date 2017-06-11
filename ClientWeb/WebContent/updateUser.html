@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update User</title>
+<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div id ="updateusercontent">
+	<form id='formUpdate' name='formUpdate' action='post'>
+	<label>Username of User:</label><input name='oldusername' type='text' id='oldusername'/> <br>
+	<label>New Username:</label><input name='username' type='text' id='username'/> <br>
+	<label>New Password:</label><input name='password' type='text' id='password'/> <br>
+	<label>New Email:</label><input name='email' type='text' id='email'/> <br>
+	<label>New Name:</label><input name='name' type='text' id='name'/> <br>
+	<label>New Surname:</label><input name='surname' type='text' id='surname'/><br>
+	
+	<input name="type" type="radio" value="Regular" id="regular" checked>Regular    
+	<input name="type" type="radio" value="Admin" id="admin" >Admin
+	
+	<br> </form>
+	<br>
+	
+	<button id='submitUpdate' onclick='updateUser()'>Submit</button>
+	<button id='backToMain' onclick="window.location.href='adminUser.html'">Back</button>
+	
+	
+</div>
+<script src="js/jquery-3.0.0.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
